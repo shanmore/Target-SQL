@@ -2,7 +2,7 @@
 
 **Time period for which the data is given.**
 *****************************************************************************
-_SELECT
+SELECT
 order_id,
 order_purchase_timestamp,
 EXTRACT (YEAR FROM order_purchase_timestamp) as YEAR,
